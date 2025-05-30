@@ -1,0 +1,48 @@
+:root {
+  --layout-padding: 250px;
+  --dark-background-color: #1f2937;
+  --primary-font-color: #f9faf8;
+  --secondary-font-color: #e5e7eb;
+}
+
+/* Basic reset css settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-background-color);
+  padding: 20px var(--layout-padding);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--primary-font-color);
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: var(--secondary-font-color);
+  text-decoration: none;
+}
