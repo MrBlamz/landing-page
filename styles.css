@@ -164,3 +164,25 @@ body {
   font-size: 24px;
   font-weight: 500;
 }
+
+.call-to-action {
+  padding: 100px var(--layout-padding);
+}
+
+.call-to-action .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-blue);
+  padding: 50px 100px;
+  border-radius: 10px;
+  color: var(--secondary-font-color);
+}
+
+.call-to-action .secondary-text {
+  font-weight: 400;
+}
+
+.call-to-action .button {
+  border: 3px solid var(--secondary-font-color);
+}
