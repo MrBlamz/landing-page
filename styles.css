@@ -186,3 +186,11 @@ body {
 .call-to-action .button {
   border: 3px solid var(--secondary-font-color);
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-font-color);
+  background-color: var(--dark-background-color);
+  padding: 30px;
+}
