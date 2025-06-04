@@ -143,3 +143,24 @@ body {
 .article-description {
   color: #91979f;
 }
+
+.quote {
+  background-color: var(--secondary-font-color);
+  padding: 150px var(--layout-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quotation {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark-background-color);
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 500;
+}
